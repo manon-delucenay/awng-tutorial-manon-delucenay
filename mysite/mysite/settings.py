@@ -20,7 +20,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+<<<<<<< HEAD
 SECRET_KEY = 'django-insecure-qp(ge$5ao+_c-1r+8=gguk5%nz7wszzrrhj@)n@m0*ok^w_%vy'
+=======
+SECRET_KEY = 'django-insecure-&4z4!t10+%g56c0$)lxm(br+qxf8lrsb1%w=txa8jb@@%n0lcs'
+>>>>>>> bd6ed7fdd25a64f7418beb09c567ce9443ad84bf
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,7 +35,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+<<<<<<< HEAD
     'polls.apps.PollsConfig',
+=======
+>>>>>>> bd6ed7fdd25a64f7418beb09c567ce9443ad84bf
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -55,7 +62,11 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+<<<<<<< HEAD
         'DIRS': [BASE_DIR / "templates"],
+=======
+        'DIRS': [],
+>>>>>>> bd6ed7fdd25a64f7418beb09c567ce9443ad84bf
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
